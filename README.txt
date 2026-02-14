@@ -31,7 +31,8 @@ The dataset used is a heart disease dataset obtained from a public repository (K
 
 - `target` – Heart disease diagnosis (1 = heart disease present, 0 = no heart disease)
 
-since the data set used is very small , the actual data set can be uploaded it wont hit the free limit of streamlit 
+**heart.csv**
+since the data set used is very small , the actual data set can be uploaded it wont hit the free limit of streamlit . Use the file heart.csv int eh repository for testign the model
 
 
 ## Models Used and Evaluation Metrics
@@ -63,3 +64,4 @@ since the data set used is very small , the actual data set can be uploaded it w
 | Random Forest       | Reaches perfect scores on all metrics, suggesting excellent fit but also a high chance of overfitting to this dataset due to its ensemble of many deep trees. |
 
 | XGBoost             | Also attains perfect metrics similar to Random Forest, indicating a very powerful ensemble that may be overfitting; however it is typically strong for tabular classification tasks. |
+
